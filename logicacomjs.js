@@ -22,6 +22,6 @@ console.log("--------------------------------")
 let val = 3000
 let meses = 12
 let totalanual= val/12*meses
-console.log("Val o seu "+décimo+"  é; "Parabéns!")
+console.log("Val o seu +décimo+ é" +"R$")
 
 
