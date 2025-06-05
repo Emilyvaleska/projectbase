@@ -19,6 +19,7 @@ let crianças = 20;
 let entregadepipocas=crechê/crianças
 console.log("A divisão é :"+entregadepipocas+"R$")
 console.log("--------------------------------")
+ 
 )let salario = Number(prompt(3000)
 let mesestrabalhados = Number(prompt ("5"))
 let décimo = salario/12*mesestrabalhados
@@ -36,7 +37,6 @@ salario = (15/100*salario)+salario
     salario = (5/100*salario)+salario
     alert ("Seu novo salario é: "+salario)     
     }
-
 let idade = Number(prompt("digite sua idade:"))
   if (idade<12){
     alert ("Seu conteúdo é infantil")
@@ -49,8 +49,7 @@ let idade = Number(prompt("digite sua idade:"))
   } 
   else{
     alert("Seu conteúdo é Sênior")
-  }*/
-  
+  }
   let pontuacao = Number(prompt("digite sua pontuação"))
  if (pontuacao=0 && pontuacao<=1000){
    alert("Seu nivel é novato e o seu bônus é de 100XP")
@@ -64,3 +63,42 @@ let idade = Number(prompt("digite sua idade:"))
   else{ 
     alert("SEu nível é mestre e o seu bônus é de 2000PX")
   }
+
+ let planobasico= 25;
+ let planopremium= 48;
+ let planoultra= 60;
+ let telastresaquatro= 5;
+ let telasmaisdequatro= 7.50;
+
+ let tipodeassinatura = prompt("Digite o tipo da assinatura que você deseja")
+ let quantitelas = prompt(" Digite quantas telas você terá:")
+ if (tipodeassinatura == "básico"){
+   if(quantitelas>=3 && quantitelas<=4){
+      alert("O valor final do seu plano é R$ "+(planobasico+telastresaquatro))
+   } else if (quantitelas>=3 && quantitelas<=4){ 
+     alert("O valor final do seu plano é R$ "+(telasmaisdequatro))
+   } else {
+     alert("O seu plano será R$ "+planobasico)
+   }
+   }
+   
+ else if (tipodeassinatura == "premium"){
+   if(quantitelas>=3 && quantitelas<=4){
+      alert("O valor final do seu plano é R$ "+(planopremium+telastresaquatro))
+   } else if (quantitelas>=3 && quantitelas<=4){ 
+     alert("O valor final do seu plano é R$ "+(planopremium+telasmaisdequatro))
+   } else {
+     alert("O seu plano será R$ "+(planopremium))
+   }
+   }
+   
+ else{
+   if(quantitelas>=3 && quantitelas<=4){
+      alert("O valor final do seu plano é R$ "+(planoultra+telastresaquatro))
+   } else if (quantitelas>=3 && quantitelas<=4){ 
+     alert("O valor final do seu plano é R$ "+(planoultra+telasmaisdequatro))
+   } else {
+     alert("O seu plano será R$ "+(planopremium))
+    }
+     }*/
+  
