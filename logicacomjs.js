@@ -1,16 +1,16 @@
 /*let bruna = 6.5;
 let carla = 8;
-let soma = bruna + carla 
+let soma = bruna + carla
 console.log("A soma é: " + soma)
 console.log("-------------------------")
 let pedro = 300;
 let joão = 900;
-let multiplicação = 300 - 900 
+let multiplicação = 300 - 900
 let subtração = (pedro + joão)
 console.log("A sutrcação de Pedro e João é:"+ subtração+"R$")
 console.log("----------------------------")
 let arroz= 5;
-let macarrão= 3; 
+let macarrão= 3;
 let Ovalorarmazenamento= arroz*macarrão
 console.log("A multiplicação é"+Ovalorarmazenamento+"R$")
 console.log("--------------------------------")
@@ -29,13 +29,13 @@ console.log(x)
 let salario = Number(prompt("digite o seu salrio:"))
 if (salario < 500){
 salario = (15/100*salario)+salario
-  alert("Seu novo salario é: "+salario) 
+  alert("Seu novo salario é: "+salario)
 } else if (salario >=500 && salario<=1000){
     salario = (10/100*salario)+salario
     alert ("Seu novo salario é: "+salario)
 } else{
     salario = (5/100*salario)+salario
-    alert ("Seu novo salario é: "+salario)     
+    alert ("Seu novo salario é: "+salario)
     }
 let idade = Number(prompt("digite sua idade:"))
   if (idade<12){
@@ -46,7 +46,7 @@ let idade = Number(prompt("digite sua idade:"))
   }
   else if( idade>=18 && idade<=60){
     alert("Seu conteúdo é adulto")
-  } 
+  }
   else{
     alert("Seu conteúdo é Sênior")
   }
@@ -60,7 +60,7 @@ let idade = Number(prompt("digite sua idade:"))
   else if ( pontuacao>=5001 && pontuacao<=10000){
    alert("Seu nível é Expert e o seu bônus é de 1000PX")
   }
-  else{ 
+  else{
     alert("SEu nível é mestre e o seu bônus é de 2000PX")
   }
 
@@ -75,7 +75,7 @@ let idade = Number(prompt("digite sua idade:"))
  if (tipodeassinatura == "básico"){
    if(quantitelas>=3 && quantitelas<=4){
       alert("O valor final do seu plano é R$ "+(planobasico+telastresaquatro))
-   } else if (quantitelas>=3 && quantitelas<=4){ 
+   } else if (quantitelas>=3 && quantitelas<=4){
      alert("O valor final do seu plano é R$ "+(telasmaisdequatro))
    } else {
      alert("O seu plano será R$ "+planobasico)
@@ -85,7 +85,7 @@ let idade = Number(prompt("digite sua idade:"))
  else if (tipodeassinatura == "premium"){
    if(quantitelas>=3 && quantitelas<=4){
       alert("O valor final do seu plano é R$ "+(planopremium+telastresaquatro))
-   } else if (quantitelas>=3 && quantitelas<=4){ 
+   } else if (quantitelas>=3 && quantitelas<=4){
      alert("O valor final do seu plano é R$ "+(planopremium+telasmaisdequatro))
    } else {
      alert("O seu plano será R$ "+(planopremium))
@@ -95,10 +95,22 @@ let idade = Number(prompt("digite sua idade:"))
  else{
    if(quantitelas>=3 && quantitelas<=4){
       alert("O valor final do seu plano é R$ "+(planoultra+telastresaquatro))
-   } else if (quantitelas>=3 && quantitelas<=4){ 
+   } else if (quantitelas>=3 && quantitelas<=4){
      alert("O valor final do seu plano é R$ "+(planoultra+telasmaisdequatro))
    } else {
      alert("O seu plano será R$ "+(planopremium))
     }
-     }*/
-  
+     }
+let daysOfWeek = ["Caio", "Samuel"];
+console.log(daysOfWeek[1])
+console.log(daysOfWeek.length)
+let listdiver = ["Caio",1,2.5,"Escola",false]
+console.log(listdiver[3])
+let nomedoaluno = prompt("Digite o nome do novo aluno: ")
+daysOfWeek.push(nomedoaluno)
+daysOfWeek.unshift("Miguel")
+daysOfWeek.pop()
+daysOfWeek.shift()
+daysOfWeek.sort()
+alert("Atualmente os alunos da escola são"+daysOfWeek)
+alert(daysOfWeek.indexOf("Caio"))*/
