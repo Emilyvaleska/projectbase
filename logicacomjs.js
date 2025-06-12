@@ -19,7 +19,6 @@ let crianças = 20;
 let entregadepipocas=crechê/crianças
 console.log("A divisão é :"+entregadepipocas+"R$")
 console.log("--------------------------------")
- 
 )let salario = Number(prompt(3000)
 let mesestrabalhados = Number(prompt ("5"))
 let décimo = salario/12*mesestrabalhados
@@ -62,8 +61,7 @@ let idade = Number(prompt("digite sua idade:"))
   }
   else{
     alert("SEu nível é mestre e o seu bônus é de 2000PX")
-  }
-
+}
  let planobasico= 25;
  let planopremium= 48;
  let planoultra= 60;
@@ -81,7 +79,6 @@ let idade = Number(prompt("digite sua idade:"))
      alert("O seu plano será R$ "+planobasico)
    }
    }
-   
  else if (tipodeassinatura == "premium"){
    if(quantitelas>=3 && quantitelas<=4){
       alert("O valor final do seu plano é R$ "+(planopremium+telastresaquatro))
@@ -91,7 +88,6 @@ let idade = Number(prompt("digite sua idade:"))
      alert("O seu plano será R$ "+(planopremium))
    }
    }
-   
  else{
    if(quantitelas>=3 && quantitelas<=4){
       alert("O valor final do seu plano é R$ "+(planoultra+telastresaquatro))
@@ -113,4 +109,31 @@ daysOfWeek.pop()
 daysOfWeek.shift()
 daysOfWeek.sort()
 alert("Atualmente os alunos da escola são"+daysOfWeek)
-alert(daysOfWeek.indexOf("Caio"))*/
+alert(daysOfWeek.indexOf("Caio"))
+// Sem parâmetro
+function saudar(){
+    alert("Desejp uma boa navegação no nosso Site!")
+}
+saudar()
+//função com retorno
+function dobrarNumero(numero){
+  return numero * 2
+}
+let resultado = dobrarNumero(25)
+alert("O cálculo do dobro do numero é" + resultado)
+//Com Parâmetro
+function  cumprimentar(nome){
+    alert("Olá, "+nome+" como está seu dia?")
+}  
+let nomedoaluno = prompt("Digite o seu nome jovem: ")
+cumprimentar(nomedoaluno)
+//Recursiva
+function contagemregressiva(numero){
+   console.log(numero)
+   if(ny-numero ===0){
+   console.log("Chegou")
+   return;
+   }
+   contagemregressiva(numero-1)
+}
+  contagemregressiva(10)*/
